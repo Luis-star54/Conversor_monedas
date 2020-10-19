@@ -14,8 +14,6 @@ def monedas(precios):
     cambio_de_pesos = round(cambio_de_pesos , 2)
     cambio_de_pesos = str(cambio_de_pesos)
     print("tienes $ " + cambio_de_pesos + " dolares")
-
-
 if tasa_cambio == 1:
     monedas(3847)
 elif tasa_cambio == 2:
