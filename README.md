@@ -1,2 +1,2 @@
 # Conversor_monedas
-Este es un proyecto de converso de monedas  utilizando python 
+Este son mis primero pasos en programacion python, donde he aprendido funciones, bucles , condionales etc... 
