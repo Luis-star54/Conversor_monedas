@@ -1,23 +1,22 @@
-def es_primo(numero):
-    count = 0
-
+def numero_primo(numero):
+    contador = 0
     for i in range(1 , numero + 1):
         if i == 1 or i == numero:
             continue
         if numero % i == 0:
-            count += 1
-    if count == 0:
+            contador += 1
+    if contador == 0:
         return True
     else:
-        return False
-            
+        return False           
+
 
 def run():
-    numero = int(input("escribe un numero: "))
-    if es_primo(numero):
-        print("es primo")
+    numero = int(input("Elige un numero: "))
+    if numero_primo(numero) == True:
+        print("es un numero primo ")
     else:
-        print("no es primo")
+        print("no es un numero primo") 
 
 
 if __name__ == "__main__":
